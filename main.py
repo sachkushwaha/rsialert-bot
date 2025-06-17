@@ -1,7 +1,7 @@
 from flask import Flask, request
 import requests
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Replace with your actual Telegram Bot Token and Chat ID
 BOT_TOKEN = "8153432908:AAEaq614eR8-Fz6g_6vr3XbcmHMwko3E3Jc"
